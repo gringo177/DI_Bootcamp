@@ -1,0 +1,31 @@
+{
+    "SocialMedias": [
+      "Twitter",
+      "Facebook",
+      "LinkedIn"
+    ],
+    "Skills": {
+      "Programming": [
+        "JavaScript",
+        "Python",
+        "Java"
+      ],
+      "Design": [
+        "UI/UX",
+        "Graphic Design"
+      ]
+    },
+    "Experiences": [
+      {
+        "id": 1,
+        "company": "Company A",
+        "position": "Software Developer"
+      },
+      {
+        "id": 2,
+        "company": "Company B",
+        "position": "UX Designer"
+      }
+    ]
+  }
+  
