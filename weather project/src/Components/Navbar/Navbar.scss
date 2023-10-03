@@ -1,0 +1,51 @@
+.navbar{
+    background-color: transparent;
+    position: fixed;
+    top:0;
+    height:50px;
+    width:99%;
+    margin:0 auto;
+    z-index: 2;
+    .wrapper{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width:95%;
+        margin: 0 auto;
+
+        h1{
+            margin:0;
+            padding:0;
+            color:white;
+        
+            
+        }
+        a{
+            color:#484848;
+            font-family: cursive;
+            margin:0;
+            text-decoration: none;
+            padding:0; 
+        }
+        a:active{
+            color:black;
+        }
+
+        
+      
+        .links-container{
+            width:120px;
+            display:flex;
+            justify-content: space-between;
+        }
+    }
+}
+@media (max-width: 420px){
+    .navbar{
+        .wrapper{
+            display: block;
+            margin-bottom:40px;
+        }
+    }
+
+}

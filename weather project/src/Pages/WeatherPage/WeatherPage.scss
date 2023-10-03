@@ -1,0 +1,65 @@
+@import "../../assets/css-assets/animations.scss";
+
+.weather-page {
+  background: -webkit-linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3f2b96,
+    #a8c0ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  width: 100%;
+
+  margin: 0 auto;
+  .input-section {
+    .city-label {
+      font-family: cursive;
+      margin-right: 15px;
+    }
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+    input {
+      margin-top: 45px;
+      width: 300px;
+      transition: all 0.4s;
+      height: 35px;
+      border-color: #c1c1c1c1;
+    }
+    input:focus {
+      border-color: lightblue;
+    }
+  }
+  .favorite-heart {
+    position: absolute;
+    top: 110px;
+    right: 36px;
+  }
+
+  .forcast-card-container {
+    margin-top: 50px;
+  }
+  @media (max-width: 550px) {
+    .input-section {
+      .city-label {
+        display: block !important;
+        padding-top: 45px !important;
+      }
+      input {
+        margin-top: 0;
+      }
+    }
+
+    .favorite-heart {
+      top: 180px !important;
+    }
+  }
+
+  @media (max-width: 420px) {
+    padding-top: 30px;
+  }
+}

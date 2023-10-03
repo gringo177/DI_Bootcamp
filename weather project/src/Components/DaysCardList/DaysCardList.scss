@@ -1,0 +1,30 @@
+.days-card-list {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  max-width: 1020px;
+  min-width: 250px !important;
+  margin: 0 auto;
+
+}
+@media (max-width: 1050px) {
+    .days-card-list {
+      grid-template-columns: auto auto auto auto;
+    }
+  }
+@media (max-width: 850px) {
+  .days-card-list {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 630px) {
+  .days-card-list {
+    grid-template-columns: auto auto;
+  }
+}
+@media (max-width: 420px) {
+  .days-card-list {
+    grid-template-columns: 200px;
+  }
+}
